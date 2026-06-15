@@ -2868,3 +2868,48 @@ figure.about-image.hover .curl {
         font-size: 26px;
     }
 }
+
+.discord-button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: fit-content;
+    margin: 0 auto;
+
+    padding: 14px 24px;
+
+    background-color: #5865F2;
+    color: #ffffff;
+    text-decoration: none;
+
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+    border-radius: 12px;
+
+    transition:
+        background-color 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+
+    box-shadow: 0 4px 14px rgba(88, 101, 242, 0.25);
+}
+
+.discord-button:hover {
+    background-color: #4752C4;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(88, 101, 242, 0.35);
+}
+
+.discord-button:active {
+    transform: translateY(0);
+    color: #ffffff;
+}
+
+.discord-icon {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
