@@ -157,6 +157,12 @@ section{padding: 7.5rem 0;}
     margin: 0 auto;
 }
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
 /* opacity */
 .opacity-full{opacity: 1;}
 .opacity-1{opacity: .1;}
